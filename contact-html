@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Writer Blog - Blog for Poetry</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/"></a>
+            <span><img src="img/Screenshot (3).png" width="80px"></span>
+            </a>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">about</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="" class="search html">
+                <input class="form-input" type="text" name="query" placeholder="Story Search" />
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="contact-contact max-width-1 m-auto ">
+        <div class="max-width-1 m-auto">
+            <h1>Feel Free to Contact Us</h1>
+            <div class="contact-form">
+                <div class="form-box">
+                    <input type="text" placeholder="Enter Your name">
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-box">
+                    <input type="text" placeholder="Enter Your Email id">
+                </div>
+                <div class="form-box">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="How May We Help You?"></textarea>
+                </div>
+                <div class="form-box">
+                    <button class="btn">Submit</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+     
+    <div class="footer">
+        <p>copyright & copy; Writer vipul Blog </p>
+        <a href="https://www.vecteezy.com/free-photos/writer">Writer Stock photos by Vecteezy</a>
+    </div>
+</body>
+
+</html>
