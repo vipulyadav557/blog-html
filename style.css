@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    font-family: var(--font1);
+    /*height: 74px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 25px;
+    background-color: rgb(198, 240, 144);
+}
+
+.nav-left {
+    font-size: 35px;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.nav-left ul li {
+    margin: 0 14px;
+    list-style: none;
+    font-family: var(--font1);
+    transition: all 0.3s ease-in-out;
+    font-size: 25px;
+
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li :hover {
+    font-weight: bolder;
+
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    /*background-color: rgb(191, 191, 235);*/
+    margin-top: 32px;
+    padding: 4px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url('/img/VIPUL\ YADAV.\ \(1\).png');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.3;
+}
+
+.content-left {
+    font-family: var(--font1);
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.content-right img {
+    height: 539px;
+    width: 100%;
+    border: 5px solid rgb(24, 21, 211);
+    border-radius: 437px;
+
+}
+
+.home-stories {
+    background-color: rgb(235, 217, 217);
+    padding: 12px;
+    margin-top: 20px;
+    position: relative;
+}
+.year-box{
+    position: absolute;
+    width: 90px;
+    height: 233px;
+    /* background-color: red; */
+    right: 414px;
+    top: 100px;
+    font-size: 18px;
+}
+
+.year-box-div{
+    margin-top: 12px 0px;
+}
+.home-poetry {
+    display: flex;
+    margin: 16px;
+}
+
+.home-poetry img {
+    width: 300px;
+}
+
+.home-poetry-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(113, 228, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(37, 33, 33);
+    flex-direction: column;
+    margin-top: 20px;
+} 
