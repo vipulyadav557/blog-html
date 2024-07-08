@@ -1,0 +1,21 @@
+.contact-contact{
+    height: 395px;
+    height: 93vh;
+    margin: 187px;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+    overflow: hidden;
+}
+.contact-contact::after{
+    content: "";
+    top: 0;
+    background-image: url('/img/VIPUL\ YADAV.\ \(1\).png');
+    position: absolute;
+    width: 110%;
+    height: inherit;
+    opacity: 0.45;
+    border-radius: 2px;
+    z-index: -1;
+
+}
