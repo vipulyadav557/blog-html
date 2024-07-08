@@ -1,0 +1,32 @@
+@media screen and (max-width: 1200px){
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 25px;
+
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .content-right {
+        display: none
+    
+    }
+    .home-poetry {
+       flex-direction: column;
+    }
+    .home-poetry img {
+        text-align: center;
+    }
+    .year-box{
+        width: 234px;
+        height: 255px;
+        /* background-color: red; */
+        right: 0px;
+        top: 0px;
+        font-size: 11px;
+        display: flex;
+    }
+    
+}
