@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/blogpost.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Writer Blog - Blog for Poetry</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/"></a>
+            <span><img src="img/Screenshot (3).png" width="80px"></span>
+            </a>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">about</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="" class="search html">
+                <input class="form-input" type="text" name="query" placeholder="Story Search" />
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="post-img">
+        <img src="img/flower.jpg" alt="">
+    </div>
+    <div class=" blog-post-content max-width-1 m-auto">
+        <h1>The Heaven For Writers</h1>
+        <div class="blogpost-meta">
+            <div class="author-info">
+                <div>
+                    <b>
+                        By Vipul Kumar Yadav
+                    </b>
+                </div>
+                <div>05 october. 5 min read </div>
+            </div>
+            <div class="social">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path
+                        d="M10.202,2.098c-1.49,.07-2.507,.308-3.396,.657-.92,.359-1.7,.84-2.477,1.619-.776,.779-1.254,1.56-1.61,2.481-.345,.891-.578,1.909-.644,3.4-.066,1.49-.08,1.97-.073,5.771s.024,4.278,.096,5.772c.071,1.489,.308,2.506,.657,3.396,.359,.92,.84,1.7,1.619,2.477,.779,.776,1.559,1.253,2.483,1.61,.89,.344,1.909,.579,3.399,.644,1.49,.065,1.97,.08,5.771,.073,3.801-.007,4.279-.024,5.773-.095s2.505-.309,3.395-.657c.92-.36,1.701-.84,2.477-1.62s1.254-1.561,1.609-2.483c.345-.89,.579-1.909,.644-3.398,.065-1.494,.081-1.971,.073-5.773s-.024-4.278-.095-5.771-.308-2.507-.657-3.397c-.36-.92-.84-1.7-1.619-2.477s-1.561-1.254-2.483-1.609c-.891-.345-1.909-.58-3.399-.644s-1.97-.081-5.772-.074-4.278,.024-5.771,.096m.164,25.309c-1.365-.059-2.106-.286-2.6-.476-.654-.252-1.12-.557-1.612-1.044s-.795-.955-1.05-1.608c-.192-.494-.423-1.234-.487-2.599-.069-1.475-.084-1.918-.092-5.656s.006-4.18,.071-5.656c.058-1.364,.286-2.106,.476-2.6,.252-.655,.556-1.12,1.044-1.612s.955-.795,1.608-1.05c.493-.193,1.234-.422,2.598-.487,1.476-.07,1.919-.084,5.656-.092,3.737-.008,4.181,.006,5.658,.071,1.364,.059,2.106,.285,2.599,.476,.654,.252,1.12,.555,1.612,1.044s.795,.954,1.051,1.609c.193,.492,.422,1.232,.486,2.597,.07,1.476,.086,1.919,.093,5.656,.007,3.737-.006,4.181-.071,5.656-.06,1.365-.286,2.106-.476,2.601-.252,.654-.556,1.12-1.045,1.612s-.955,.795-1.608,1.05c-.493,.192-1.234,.422-2.597,.487-1.476,.069-1.919,.084-5.657,.092s-4.18-.007-5.656-.071M21.779,8.517c.002,.928,.755,1.679,1.683,1.677s1.679-.755,1.677-1.683c-.002-.928-.755-1.679-1.683-1.677,0,0,0,0,0,0-.928,.002-1.678,.755-1.677,1.683m-12.967,7.496c.008,3.97,3.232,7.182,7.202,7.174s7.183-3.232,7.176-7.202c-.008-3.97-3.233-7.183-7.203-7.175s-7.182,3.233-7.174,7.203m2.522-.005c-.005-2.577,2.08-4.671,4.658-4.676,2.577-.005,4.671,2.08,4.676,4.658,.005,2.577-2.08,4.671-4.658,4.676-2.577,.005-4.671-2.079-4.676-4.656h0">
+                    </path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path
+                        d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z"
+                        fill-rule="evenodd"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path
+                        d="M25.873,6.069c-2.619-2.623-6.103-4.067-9.814-4.069C8.411,2,2.186,8.224,2.184,15.874c-.001,2.446,.638,4.833,1.852,6.936l-1.969,7.19,7.355-1.929c2.026,1.106,4.308,1.688,6.63,1.689h.006c7.647,0,13.872-6.224,13.874-13.874,.001-3.708-1.44-7.193-4.06-9.815h0Zm-9.814,21.347h-.005c-2.069,0-4.099-.557-5.87-1.607l-.421-.25-4.365,1.145,1.165-4.256-.274-.436c-1.154-1.836-1.764-3.958-1.763-6.137,.003-6.358,5.176-11.531,11.537-11.531,3.08,.001,5.975,1.202,8.153,3.382,2.177,2.179,3.376,5.077,3.374,8.158-.003,6.359-5.176,11.532-11.532,11.532h0Zm6.325-8.636c-.347-.174-2.051-1.012-2.369-1.128-.318-.116-.549-.174-.78,.174-.231,.347-.895,1.128-1.098,1.359-.202,.232-.405,.26-.751,.086-.347-.174-1.464-.54-2.788-1.72-1.03-.919-1.726-2.054-1.929-2.402-.202-.347-.021-.535,.152-.707,.156-.156,.347-.405,.52-.607,.174-.202,.231-.347,.347-.578,.116-.232,.058-.434-.029-.607-.087-.174-.78-1.88-1.069-2.574-.281-.676-.567-.584-.78-.595-.202-.01-.433-.012-.665-.012s-.607,.086-.925,.434c-.318,.347-1.213,1.186-1.213,2.892s1.242,3.355,1.416,3.587c.174,.232,2.445,3.733,5.922,5.235,.827,.357,1.473,.571,1.977,.73,.83,.264,1.586,.227,2.183,.138,.666-.1,2.051-.839,2.34-1.649,.289-.81,.289-1.504,.202-1.649s-.318-.232-.665-.405h0Z"
+                        fill-rule="evenodd"></path>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path
+                        d="M18.42,14.009L27.891,3h-2.244l-8.224,9.559L10.855,3H3.28l9.932,14.455L3.28,29h2.244l8.684-10.095,6.936,10.095h7.576l-10.301-14.991h0Zm-3.074,3.573l-1.006-1.439L6.333,4.69h3.447l6.462,9.243,1.006,1.439,8.4,12.015h-3.447l-6.854-9.804h0Z">
+                    </path>
+                </svg>
+            </div>
+        </div>
+        <b>
+            <p>"About the Author"</p>
+        </b> Vipul Kumar Yadav Birthplace and Early Life
+        <p> Vipul Kumar Yadav was born in 2003 in Jaunpur, a historic city in Uttar Pradesh, India. Nestled on the banks
+            of the Gomti River, Jaunpur is known for its rich cultural heritage and historical significance, which has
+            greatly influenced Vipul's perspective and writing.</p>
+
+        <b>
+            <p>"Education"</p>
+        </b>
+
+        <p> Vipul completed his 10+2 education in Jaunpur, where he cultivated a strong foundation in both academics and
+            creative pursuits. His passion for technology and innovation led him to pursue a Bachelor of Technology
+            (B.Tech) degree from Agra University. During his time in Agra, Vipul not only honed his technical skills but
+            also developed a deeper understanding of the intricate relationship between technology and society.</p>
+
+        <b>
+            <p>"writing journey"</p>
+        </b>
+
+        <p>Vipul had a keen interest in writing since class 7. His experiences growing up in Jaunpur, coupled with his
+            educational journey, have provided him with a unique lens through which he views the world. Vipul's writing
+            often reflects his deep appreciation of pain, desolation and sadness, which makes his work insightful and
+            engaging.</p>
+
+        <b>
+            <p>"Themes and inspirations"</p>
+        </b>
+
+        <P>Vipul's writings are inspired by many topics, including betrayal, trust, faith and life. His goal is to
+            bridge the gap between these seemingly disparate worlds, providing readers with a nuanced perspective that
+            is both informative and thought-provoking.</p>
+        <p>Stay tuned to this blog for more insights, stories and reflections from Vipul Kumar Yadav as he explores the
+            fascinating world of poetry and culture.</p>
+        <b>
+            <p>लेखक के बारे में:</p>
+        </b>
+
+        <b>
+            <p></p>
+        </b>
+        <p>विपुल कुमार यादव का जन्म 2003 में भारत के उत्तर प्रदेश के ऐतिहासिक शहर जौनपुर में हुआ था। गोमती नदी के तट
+            पर
+            बसा, जौनपुर अपनी समृद्ध सांस्कृतिक विरासत और ऐतिहासिक महत्व के लिए जाना जाता है, जिसने विपुल के
+            दृष्टिकोण और
+            लेखन को बहुत प्रभावित किया है।</p>
+
+        <b>
+            <p>शिक्षा</p>
+        </b>
+
+        <p>विपुल ने अपनी 10+2 की शिक्षा जौनपुर में पूरी की, जहां उन्होंने शैक्षणिक और रचनात्मक गतिविधियों दोनों में
+            एक
+            मजबूत नींव तैयार की। टेक्नोलॉजी और इनोवेशन के प्रति उनके जुनून ने उन्हें आगरा विश्वविद्यालय से बैचलर ऑफ
+            टेक्नोलॉजी (बी.टेक) की डिग्री हासिल करने के लिए प्रेरित किया। आगरा में अपने समय के दौरान, विपुल ने न
+            केवल
+            अपने तकनीकी कौशल को निखारा बल्कि प्रौद्योगिकी और समाज के बीच जटिल संबंधों की गहरी समझ भी विकसित की।</p>
+
+    </div>
+    <div class="real-story m-auto max-width-1">
+        <hr>
+        <h1>Real story(वास्तविक कहानी) </h1>
+        <p>आइसे आपसे रूबरू करवाते है, इक ऐसे शक्स से जिसकी कहानी शायद आपको कुछ समझाए जिंदगी के बारे में।</p>
+        <p>"नमस्ते,</p>
+        <p>मेरा नाम विपुल कुमार यादव है मेरा जन्म 07/04/2003 को हुआ था मेरे पिता मदन लाल यादव और माता उर्मिला यादव है
+            ।मैं सिद्दीकपुर जौनपुर का निवासी हूं "नमस्ते, मैं विपुल कुमार यादव हूं, जौनपुर के सिद्दीकपुर का निवासी। मेरी
+            पहचान मेरे माता-पिता, मदन लाल यादव और उर्मिला यादव के बेटे के रूप में है। मेरे जन्मदिन 7 अप्रैल 2003 के दिन
+            ने मुझे इस दुनिया से जोड़ा।"</p>
+        <p>riya</p>
+        <p>priti</p>
+        <p> sangeeta</p>
+        <p>priyanshhi</p>
+        <p>mdan</p>
+        <p>urmila</p>
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="home-stories max-width-1 m-auto font2">
+        <h2>prople who read this also read</h2>
+        <div class="row">
+
+
+            <div class="home-poetry more-post">
+                <div class="home-poetry-img">
+                    <img src="img/guzaea.jpg.jpg" alt="poetry">
+                </div>
+                <div class="home-poetry-content font2 center">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                    <div>Author Name</div>
+                    <span>28 december | 2 min read </span>
+                </div>
+            </div>
+            <div class="home-poetry more-post">
+                <div class="home-poetry-img">
+                    <img src="img/tuxpi.com.1718282505.jpg" alt="poetry">
+                </div>
+                <div class="home-poetry-content font2 center">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                    <div>Author Name</div>
+                    <span>28 december | 2 min read </span>
+                </div>
+            </div>
+            <div class="home-poetry more-post">
+                <div class="home-poetry-img">
+                    <img src="img/tabah.jpg.jpg" alt="poetry">
+                </div>
+                <div class="home-poetry-content font2 center">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3></a>
+                    <div>Author Name</div>
+                    <span>28 december | 2 min read </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer max-width-2 m-auto">
+        <p>copyright & copy; WriterBlog </p>
+        <a href="https://www.vecteezy.com/free-photos/writer">Writer Stock photos by Vecteezy</a>
+    </div>
+</body>
+
+</html>
