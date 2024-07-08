@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Writer Blog - Blog for Poetry</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/"></a>
+            <span><img src="img/Screenshot (3).png" width="80px"></span>
+            </a>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/about.html">about</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="" class="search html">
+                <input class="form-input" type="text" name="query" placeholder="Story Search" />
+                <button class="btn">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    
+    <div class="max-width-1 m-auto"><hr> </div>
+    <div class="home-stories max-width-1 m-auto font2">
+        <h2>Search Results for django (0.03 seconds)</h2>
+        <div class="home-poetry">
+            <div class="home-poetry-img">
+                <img src="img/guzaea.jpg.jpg" alt="poetry">
+            </div>
+            <div class="home-poetry-content font2">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>Author</span>
+                <span>28 december | 2 min read </span>
+            </div>
+        </div>
+        <div class="home-poetry">
+            <div class="home-poetry-img">
+                <img src="img/tuxpi.com.1718282505.jpg" alt="poetry">
+            </div>
+            <div class="home-poetry-content font2">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>Author</span>
+                <span>28 december | 2 min read </span>
+            </div>
+        </div>
+        <div class="home-poetry">
+            <div class="home-poetry-img">
+                <img src="img/tabah.jpg.jpg" alt="poetry">
+            </div>
+            <div class="home-poetry-content font2">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>Author</span>
+                <span>28 december | 2 min read </span>
+            </div>
+        </div>
+        <div class="home-poetry">
+            <div class="home-poetry-img">
+                <img src="img/dil.jpg.jpg" alt="poetry">
+            </div>
+            <div class="home-poetry-content font2">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>Author</span>
+                <span>28 december | 2 min read </span>
+            </div>
+        </div>
+        <div class="home-poetry">
+            <div class="home-poetry-img">
+                <img src="img/IMG-20240613-WA0075.jpg" alt="poetry">
+            </div>
+            <div class="home-poetry-content font2">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <span>Author</span>
+                <span>28 december | 2 min read </span>
+            </div>
+        </div>
+    </div>
+    <div class="footer max-width-2 m-auto">
+        <p>copyright & copy; Writer vipul Blog </p>
+        <a href="https://www.vecteezy.com/free-photos/writer">Writer Stock photos by Vecteezy</a>
+    </div>
+</body>
+
+</html>
